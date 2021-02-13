@@ -2,10 +2,10 @@ def join_nested_strings(src)
   
   string_phrase = []
   row_index = 0
-  while row_index < src[row_index].length do
+  while row_index < src[row_index].count do
     
       element_index = 0
-      while element_index < src[row_index].length do
+      while element_index < src[row_index].count do
         if src[row_index][element_index].is_a?(String) == true 
         string_phrase << src[row_index][element_index]
         end
